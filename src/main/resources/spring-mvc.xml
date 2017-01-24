@@ -13,7 +13,7 @@
     <context:component-scan base-package="com.notbin.controller" />  
     <!-- 扩充了注解驱动，可以将请求参数绑定到控制器参数 -->
     <mvc:annotation-driven/>
-    <!-- 静态资源处理  css js imgs 2222-->
+    <!-- 静态资源处理  css js imgs 测试提交-->
     <mvc:resources location="/resources/**" mapping="/resources"/>
     
     <!--避免IE执行AJAX时，返回JSON出现下载文件 -->  
